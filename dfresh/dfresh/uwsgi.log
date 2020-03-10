@@ -1,0 +1,340 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Mar 10 09:51:56 2020] ***
+compiled with version: 7.4.0 on 10 March 2020 01:37:50
+os: Linux-5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020
+nodename: lynn-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/lynn/dfresh/dfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lynn/dfresh/myenv/bin/uwsgi
+chdir() to /home/lynn/dfresh
+your processes number limit is 7651
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:34541 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Set PythonHome to /home/lynn/dfresh/myenv
+Python main interpreter initialized at 0x5567520a44a0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file dfresh/wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4639)
+spawned uWSGI worker 1 (pid: 4640, cores: 2)
+spawned uWSGI worker 2 (pid: 4641, cores: 2)
+spawned uWSGI worker 3 (pid: 4642, cores: 2)
+spawned uWSGI worker 4 (pid: 4643, cores: 2)
+spawned uWSGI http 1 (pid: 4644)
+--- no python application found, check your startup logs for errors ---
+[pid: 4643|app: -1|req: -1/1] 127.0.0.1 () {46 vars in 909 bytes} [Tue Mar 10 09:53:10 2020] GET /index => generated 21 bytes in 2 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4643|app: -1|req: -1/2] 127.0.0.1 () {42 vars in 801 bytes} [Tue Mar 10 09:53:12 2020] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 4643|app: -1|req: -1/3] 127.0.0.1 () {42 vars in 850 bytes} [Tue Mar 10 09:53:41 2020] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 4641|app: -1|req: -1/4] 127.0.0.1 () {42 vars in 797 bytes} [Tue Mar 10 09:53:41 2020] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4643|app: -1|req: -1/5] 127.0.0.1 () {44 vars in 886 bytes} [Tue Mar 10 09:54:08 2020] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 4642|app: -1|req: -1/6] 127.0.0.1 () {42 vars in 802 bytes} [Tue Mar 10 09:54:08 2020] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 4644)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Mar 10 09:55:28 2020] ***
+compiled with version: 7.4.0 on 10 March 2020 01:37:50
+os: Linux-5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020
+nodename: lynn-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/lynn/dfresh/dfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lynn/dfresh/myenv/bin/uwsgi
+chdir() to /home/lynn/dfresh
+your processes number limit is 7651
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:33063 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Set PythonHome to /home/lynn/dfresh/myenv
+Python main interpreter initialized at 0x560f428324a0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file dfresh/wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4985)
+spawned uWSGI worker 1 (pid: 4987, cores: 2)
+spawned uWSGI worker 2 (pid: 4988, cores: 2)
+spawned uWSGI worker 3 (pid: 4989, cores: 2)
+spawned uWSGI worker 4 (pid: 4990, cores: 2)
+spawned uWSGI http 1 (pid: 4991)
+--- no python application found, check your startup logs for errors ---
+[pid: 4988|app: -1|req: -1/1] 127.0.0.1 () {44 vars in 886 bytes} [Tue Mar 10 09:55:41 2020] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4988|app: -1|req: -1/2] 127.0.0.1 () {42 vars in 802 bytes} [Tue Mar 10 09:55:41 2020] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4990|app: -1|req: -1/3] 127.0.0.1 () {46 vars in 917 bytes} [Tue Mar 10 09:57:08 2020] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4988|app: -1|req: -1/4] 127.0.0.1 () {46 vars in 855 bytes} [Tue Mar 10 09:57:08 2020] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 4991)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Mar 10 09:57:42 2020] ***
+compiled with version: 7.4.0 on 10 March 2020 01:37:50
+os: Linux-5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020
+nodename: lynn-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/lynn/dfresh/dfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lynn/dfresh/myenv/bin/uwsgi
+chdir() to /home/lynn/dfresh/dfresh
+your processes number limit is 7651
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:45571 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Set PythonHome to /home/lynn/dfresh/myenv
+Python main interpreter initialized at 0x55691bcbb670
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55691bcbb670 pid: 5129 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5129)
+spawned uWSGI worker 1 (pid: 5132, cores: 2)
+spawned uWSGI worker 2 (pid: 5133, cores: 2)
+spawned uWSGI worker 3 (pid: 5134, cores: 2)
+spawned uWSGI worker 4 (pid: 5135, cores: 2)
+spawned uWSGI http 1 (pid: 5136)
+设置缓存
+[pid: 5132|app: 0|req: 1/1] 127.0.0.1 () {46 vars in 916 bytes} [Tue Mar 10 09:57:44 2020] GET /index => generated 11231 bytes in 1676 msecs (HTTP/1.1 200) 5 headers in 152 bytes (1 switches on core 0)
+[pid: 5132|app: 0|req: 2/2] 127.0.0.1 () {42 vars in 798 bytes} [Tue Mar 10 09:57:46 2020] GET /static/css/reset.css => generated 179 bytes in 39 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 5132|app: 0|req: 3/3] 127.0.0.1 () {42 vars in 823 bytes} [Tue Mar 10 09:57:46 2020] GET /static/images/logo.png => generated 179 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 5135|app: 0|req: 2/5] 127.0.0.1 () {42 vars in 803 bytes} [Tue Mar 10 09:57:46 2020] GET /static/js/jquery-1.12.4.min.js => generated 179 bytes in 1481 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 5135|app: 0|req: 2/7] 127.0.0.1 () {42 vars in 795 bytes} [Tue Mar 10 09:57:46 2020] GET /static/js/jquery-ui.min.js => generated 179 bytes in 1477 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 5133|app: 0|req: 2/7] 127.0.0.1 () {42 vars in 779 bytes} [Tue Mar 10 09:57:46 2020] GET /static/js/slide.js => generated 179 bytes in 1466 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 5133|app: 0|req: 2/7] 127.0.0.1 () {42 vars in 796 bytes} [Tue Mar 10 09:57:46 2020] GET /static/css/main.css => generated 179 bytes in 1492 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 5132|app: 0|req: 4/8] 127.0.0.1 () {42 vars in 796 bytes} [Tue Mar 10 09:57:48 2020] GET /static/js/jquery-ui.min.js => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 5134|app: 0|req: 1/9] 127.0.0.1 () {42 vars in 780 bytes} [Tue Mar 10 09:57:48 2020] GET /static/js/slide.js => generated 179 bytes in 508 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 5134|app: 0|req: 2/10] 127.0.0.1 () {46 vars in 855 bytes} [Tue Mar 10 09:57:48 2020] GET /favicon.ico => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 5136)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Mar 10 10:31:05 2020] ***
+compiled with version: 7.4.0 on 10 March 2020 01:37:50
+os: Linux-5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020
+nodename: lynn-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/lynn/dfresh/dfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lynn/dfresh/myenv/bin/uwsgi
+chdir() to /home/lynn/dfresh/dfresh
+your processes number limit is 7651
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Set PythonHome to /home/lynn/dfresh/myenv
+Python main interpreter initialized at 0x5564c15fff10
+python threads support enabled
+The -s/--socket option is missing and stdin is not a socket.
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Mar 10 10:31:29 2020] ***
+compiled with version: 7.4.0 on 10 March 2020 01:37:50
+os: Linux-5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020
+nodename: lynn-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/lynn/dfresh/dfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lynn/dfresh/myenv/bin/uwsgi
+chdir() to /home/lynn/dfresh/dfresh
+your processes number limit is 7651
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Set PythonHome to /home/lynn/dfresh/myenv
+Python main interpreter initialized at 0x55c1bd53ff10
+python threads support enabled
+The -s/--socket option is missing and stdin is not a socket.
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Mar 10 10:33:16 2020] ***
+compiled with version: 7.4.0 on 10 March 2020 01:37:50
+os: Linux-5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020
+nodename: lynn-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/lynn/dfresh/dfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lynn/dfresh/myenv/bin/uwsgi
+chdir() to /home/lynn/dfresh/dfresh
+your processes number limit is 7651
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Set PythonHome to /home/lynn/dfresh/myenv
+Python main interpreter initialized at 0x560c0141ff10
+python threads support enabled
+The -s/--socket option is missing and stdin is not a socket.
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Mar 10 10:36:19 2020] ***
+compiled with version: 7.4.0 on 10 March 2020 01:37:50
+os: Linux-5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020
+nodename: lynn-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/lynn/dfresh/dfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lynn/dfresh/myenv/bin/uwsgi
+chdir() to /home/lynn/dfresh/dfresh
+your processes number limit is 7651
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Set PythonHome to /home/lynn/dfresh/myenv
+Python main interpreter initialized at 0x560deb797f10
+python threads support enabled
+The -s/--socket option is missing and stdin is not a socket.
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Mar 10 10:40:54 2020] ***
+compiled with version: 7.4.0 on 10 March 2020 01:37:50
+os: Linux-5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020
+nodename: lynn-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/lynn/dfresh/dfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lynn/dfresh/myenv/bin/uwsgi
+chdir() to /home/lynn/dfresh/dfresh
+your processes number limit is 7651
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Set PythonHome to /home/lynn/dfresh/myenv
+Python main interpreter initialized at 0x55a742a31f10
+python threads support enabled
+The -s/--socket option is missing and stdin is not a socket.
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Mar 10 10:41:59 2020] ***
+compiled with version: 7.4.0 on 10 March 2020 01:37:50
+os: Linux-5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020
+nodename: lynn-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/lynn/dfresh/dfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lynn/dfresh/myenv/bin/uwsgi
+chdir() to /home/lynn/dfresh/dfresh
+your processes number limit is 7651
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Set PythonHome to /home/lynn/dfresh/myenv
+Python main interpreter initialized at 0x561a4b37d5a0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x561a4b37d5a0 pid: 2278 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2278)
+spawned uWSGI worker 1 (pid: 2281, cores: 2)
+spawned uWSGI worker 2 (pid: 2282, cores: 2)
+spawned uWSGI worker 3 (pid: 2283, cores: 2)
+spawned uWSGI worker 4 (pid: 2284, cores: 2)
+[pid: 2284|app: 0|req: 1/1] 127.0.0.1 () {48 vars in 927 bytes} [Tue Mar 10 10:42:23 2020] GET /index => generated 11231 bytes in 1121 msecs (HTTP/1.1 200) 5 headers in 152 bytes (1 switches on core 0)
+[pid: 2284|app: 0|req: 2/2] 127.0.0.1 () {46 vars in 835 bytes} [Tue Mar 10 10:42:24 2020] GET /static/css/reset.css => generated 179 bytes in 10 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2284|app: 0|req: 3/3] 127.0.0.1 () {46 vars in 832 bytes} [Tue Mar 10 10:42:24 2020] GET /static/js/jquery-ui.min.js => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2284|app: 0|req: 4/4] 127.0.0.1 () {46 vars in 816 bytes} [Tue Mar 10 10:42:24 2020] GET /static/js/slide.js => generated 179 bytes in 11 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2281|app: 0|req: 2/5] 127.0.0.1 () {46 vars in 833 bytes} [Tue Mar 10 10:42:24 2020] GET /static/css/main.css => generated 179 bytes in 1510 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2281|app: 0|req: 2/6] 127.0.0.1 () {46 vars in 840 bytes} [Tue Mar 10 10:42:24 2020] GET /static/js/jquery-1.12.4.min.js => generated 179 bytes in 1478 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2283|app: 0|req: 1/7] 127.0.0.1 () {46 vars in 860 bytes} [Tue Mar 10 10:42:24 2020] GET /static/images/logo.png => generated 179 bytes in 1429 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2283|app: 0|req: 2/8] 127.0.0.1 () {46 vars in 832 bytes} [Tue Mar 10 10:42:26 2020] GET /static/js/jquery-ui.min.js => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2284|app: 0|req: 5/9] 127.0.0.1 () {46 vars in 816 bytes} [Tue Mar 10 10:42:26 2020] GET /static/js/slide.js => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2281|app: 0|req: 3/10] 127.0.0.1 () {46 vars in 838 bytes} [Tue Mar 10 10:42:26 2020] GET /favicon.ico => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+设置缓存
+[pid: 2281|app: 0|req: 4/11] 127.0.0.1 () {50 vars in 958 bytes} [Tue Mar 10 10:58:30 2020] GET /index => generated 11231 bytes in 341 msecs (HTTP/1.1 200) 5 headers in 152 bytes (1 switches on core 1)
+[pid: 2284|app: 0|req: 6/12] 127.0.0.1 () {50 vars in 976 bytes} [Tue Mar 10 10:58:45 2020] GET /goods/1 => generated 8896 bytes in 241 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 2283|app: 0|req: 3/13] 127.0.0.1 () {50 vars in 974 bytes} [Tue Mar 10 10:58:47 2020] GET /cart/ => generated 9941 bytes in 157 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 2284|app: 0|req: 7/14] 127.0.0.1 () {50 vars in 972 bytes} [Tue Mar 10 10:58:50 2020] GET /index => generated 11231 bytes in 108 msecs (HTTP/1.1 200) 5 headers in 152 bytes (1 switches on core 0)
+[pid: 2284|app: 0|req: 8/15] 192.168.1.141 () {40 vars in 717 bytes} [Tue Mar 10 10:59:30 2020] GET /index => generated 11240 bytes in 85 msecs (HTTP/1.1 200) 5 headers in 152 bytes (1 switches on core 1)
+[pid: 2284|app: 0|req: 9/16] 192.168.1.141 () {40 vars in 656 bytes} [Tue Mar 10 10:59:30 2020] GET /favicon.ico => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2283|app: 0|req: 4/17] 192.168.1.141 () {42 vars in 762 bytes} [Tue Mar 10 10:59:41 2020] GET /goods/1 => generated 8905 bytes in 93 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 2283|app: 0|req: 5/18] 192.168.1.141 () {44 vars in 849 bytes} [Tue Mar 10 10:59:44 2020] GET /index => generated 11240 bytes in 96 msecs (HTTP/1.1 200) 5 headers in 152 bytes (1 switches on core 1)
+[pid: 2284|app: 0|req: 10/19] 192.168.1.141 () {42 vars in 796 bytes} [Tue Mar 10 11:03:22 2020] GET / => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2284|app: 0|req: 11/20] 192.168.1.141 () {44 vars in 827 bytes} [Tue Mar 10 11:07:55 2020] GET / => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2281|app: 0|req: 5/21] 127.0.0.1 () {46 vars in 805 bytes} [Tue Mar 10 11:18:05 2020] GET /js/slideshow.js => generated 179 bytes in 18 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2281|app: 0|req: 6/22] 127.0.0.1 () {46 vars in 805 bytes} [Tue Mar 10 11:18:05 2020] GET /js/slideshow.js => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2281|app: 0|req: 7/23] 127.0.0.1 () {52 vars in 1003 bytes} [Tue Mar 10 11:19:01 2020] GET /index => generated 11231 bytes in 145 msecs (HTTP/1.1 200) 5 headers in 152 bytes (1 switches on core 1)
+[pid: 2284|app: 0|req: 12/24] 127.0.0.1 () {50 vars in 977 bytes} [Tue Mar 10 11:20:14 2020] GET /login.html => generated 179 bytes in 8 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2284|app: 0|req: 13/25] 127.0.0.1 () {46 vars in 805 bytes} [Tue Mar 10 11:22:01 2020] GET /js/slideshow.js => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2282|app: 0|req: 1/26] 127.0.0.1 () {46 vars in 805 bytes} [Tue Mar 10 11:22:01 2020] GET /js/slideshow.js => generated 179 bytes in 902 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2282|app: 0|req: 2/27] 127.0.0.1 () {50 vars in 977 bytes} [Tue Mar 10 11:22:04 2020] GET /login.html => generated 179 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2282|app: 0|req: 3/28] 127.0.0.1 () {50 vars in 976 bytes} [Tue Mar 10 11:39:01 2020] GET /goods/1 => generated 8896 bytes in 335 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 2283|app: 0|req: 6/29] 192.168.1.141 () {42 vars in 806 bytes} [Tue Mar 10 11:44:14 2020] GET /index => generated 11240 bytes in 157 msecs (HTTP/1.1 200) 5 headers in 152 bytes (1 switches on core 1)
+[pid: 2282|app: 0|req: 4/30] 192.168.1.141 () {44 vars in 855 bytes} [Tue Mar 10 11:44:49 2020] GET /list/3/1 => generated 5075 bytes in 391 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 2284|app: 0|req: 14/31] 192.168.1.141 () {44 vars in 854 bytes} [Tue Mar 10 11:45:01 2020] GET /goods/5 => generated 8754 bytes in 273 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 2284|app: 0|req: 15/32] 192.168.1.141 () {44 vars in 882 bytes} [Tue Mar 10 11:45:14 2020] GET /user/login?next=/user/ => generated 2601 bytes in 60 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 2284|app: 0|req: 16/33] 192.168.1.141 () {46 vars in 939 bytes} [Tue Mar 10 11:45:22 2020] GET /user/ => generated 6047 bytes in 167 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 2284|app: 0|req: 17/34] 192.168.1.141 () {44 vars in 912 bytes} [Tue Mar 10 11:45:42 2020] GET /user/address => generated 3642 bytes in 83 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 2284|app: 0|req: 18/35] 192.168.1.141 () {44 vars in 903 bytes} [Tue Mar 10 11:45:51 2020] GET /user/logout => generated 0 bytes in 18 msecs (HTTP/1.1 302) 7 headers in 254 bytes (1 switches on core 0)

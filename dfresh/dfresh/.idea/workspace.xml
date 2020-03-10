@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e6c07bd-7b67-49da-96e2-61b445ee2894" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YL7oHH1IluVRj2D0AHdpdS6Ctv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/apps/order" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/templates/search" />
+      <recent name="$PROJECT_DIR$/apps/cart" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e6c07bd-7b67-49da-96e2-61b445ee2894" name="Default Changelist" comment="" />
+      <created>1582708830210</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582708830210</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="643" y="349" width="691" height="406" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583804446744">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="643" y="349" width="691" height="406" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1583804446744" />
+    <state x="744" y="282" width="424" height="484" key="FileChooserDialogImpl" timestamp="1582787067528">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="256" width="424" height="484" key="FileChooserDialogImpl/67.27.1613.944@67.27.1613.944" timestamp="1582710190988" />
+    <state x="744" y="282" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1582787067528" />
+    <state x="475" y="187" key="SettingsEditor" timestamp="1583205432464">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="475" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1583205432464" />
+    <state x="648" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1583808028237">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="573" y="343" key="com.intellij.ide.util.TipDialog/67.27.1613.944@67.27.1613.944" timestamp="1582793521503" />
+    <state x="648" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1583808028237" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1582948063480">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1582948063480" />
+  </component>
+</project>
