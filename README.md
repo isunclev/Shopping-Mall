@@ -1,4 +1,87 @@
 <h1>Python-Django-天天生鲜</h1>
 </hr>
 <p>该项目包含了实际开发中的电商项目中大部分的功能开发和知识点实践</p>
-<p>功能:用户注册，用户登录，购物车，用户中心，首页，订单系统，地址信息管理，商品列表，商品详情，支付功能等等，是一个完整的电商项目流程</p>
+<p>功能:用户注册，用户登录，购物车，用户中心，首页，订单系统，地址信息管理，商品列表，商品详情，支付宝支付功能，是一个完整的电商项目流程</p>
+<p>
+  <strong>ps:个人学习项目,不作为商业用途</strong>
+</p>
+<h2>技术栈</h2>
+</hr>
+<p>python + Django + mysql + redis + celery + FastDFS(开源轻量级分布式文件系统) + Nginx</p>
+<h2>功能点</h2>
+</hr>
+<ul>
+  <li>功能模块
+    <ul>
+      <li>用户模块
+        <ul>
+          <li>用户注册</li>
+          <li>用户激活(celery)</li>
+          <li>用户登录</li>
+          <li>用户退出</li>
+          <li>用户中心-信息页</li>
+          <li>用户中心-订单页</li>
+          <li>用户中心-地址页</li>
+        </ul>
+      </li>
+      <li>商品模块
+        <ul>
+          <li>首页(页面静态化)</li>
+          <li>商品详情页</li>
+          <li>商品-列表页</li>
+          <li>商品-搜索框(haystack+whoose)</li>
+        </ul>
+      </li>
+      <li>购物车模块(redis)
+        <ul>
+          <li>增加</li>
+          <li>删除</li>
+          <li>修改</li>
+          <li>查询</li>
+        </ul>
+      </li>
+      <li>订单模块
+        <ul>
+          <li>确认订单页面</li>
+          <li>订单创建</li>
+          <li>请求支付(支付宝支付)</li>
+          <li>查询支付结果</li>
+          <li>支付成功后商品评论</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+<h2>项目包介绍</h2>
+</hr>
+<pre><code>
+  amqp==2.5.2
+  asgiref==3.2.3
+  billiard==3.6.2.0
+  celery==4.4.0
+  cffi==1.14.0
+  cryptography==2.8
+  Django==3.0.3
+  django-haystack==2.8.1
+  django-redis==4.11.0
+  django-tinymce==2.8.0
+  importlib-metadata==1.5.0
+  itsdangerous==1.1.0
+  jieba==0.42.1
+  kombu==4.6.7
+  Pillow==7.0.0
+  py3Fdfs==2.2.0
+  pycparser==2.20
+  pycryptodomex==3.9.4
+  PyMySQL==0.9.3
+  pyOpenSSL==19.1.0
+  python-alipay-sdk==2.0.1
+  pytz==2019.3
+  redis==3.4.1
+  six==1.14.0
+  sqlparse==0.3.0
+  uWSGI==2.0.18
+  vine==1.3.0
+  Whoosh==2.7.4
+  zipp==3.0.0
+</code></pre>
