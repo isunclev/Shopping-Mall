@@ -52,6 +52,70 @@
     </ul>
   </li>
 </ul>
+<h2>虚拟环境安装和启动方式</h2>
+</hr>
+<p>
+  <a href="https://pypi.org/project/virtualenv/" rel="nofollow">virtualenv官方文档</a>
+</p>
+<ul>
+  <li>
+    <h3>安装虚拟环境的命令</h3>
+    <ol>
+      <li>
+        <p>
+          安装虚拟环境<br>
+          <code>sudo pip install virtualenv</code>
+        </p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <h3>virtualenv操作命令</h3>
+    <ol>
+      <li>
+        <p>
+          创建虚拟环境命令<br>
+          <code>mkdir 项目文件</code>
+        </p>
+      </li>
+      <li>
+        <p>
+          进入项目文件目录<br>
+          <code>cd 项目文件</code>
+        </p>
+      </li>
+      <li>
+        <p>
+          创建虚拟环境<br>
+          <code>virtualenv -p Python版本 虚拟环境名称</code>
+        </p>
+      </li>
+      <li>
+        <p>
+          进入虚拟环境<br>
+          <code>cd 寻环境名称</code>
+        </p>
+      </li>
+      <li>
+        <p>
+          打开虚拟环境<br>
+          <code>source ./bin/activate</code>
+        </p>
+      </li>
+      <li>
+        <p>
+          退出虚拟环境<br>
+          <code>deactivate</code>
+        </p>
+      </li>
+    </ol>
+  </li>
+</ul>
+<h2>FastDFS+Nginx安装和配置</h2>
+</hr>
+<p>
+  <a href="https://www.bilibili.com/video/av77997707">FastDFS+Nginx安装和配置 教程</a>
+</p>
 <h2>项目包介绍</h2>
 </hr>
 <pre><code>
